@@ -1,4 +1,4 @@
-package zk;
+package case1;
 
 import org.apache.zookeeper.*;
 
@@ -10,6 +10,7 @@ import java.io.IOException;
  */
 
 public class DistributeServer {
+
     private static String connecting = "hadoop1:2181,hadoop2:2181,hadoop3:2181";
     private static int sessionTimeout = 2000;
     private ZooKeeper zk = null;

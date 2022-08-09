@@ -1,4 +1,4 @@
-package zk;
+package case1;
 
 import org.apache.zookeeper.KeeperException;
 import org.apache.zookeeper.WatchedEvent;
